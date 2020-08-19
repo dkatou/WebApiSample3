@@ -1,0 +1,4 @@
+https://localhost:5001/Odata/Api1?$expand=Posts,Notes&$filter=BlogId eq 1
+https://localhost:5001/Odata/Api1?$expand=Posts($expand=PostChilds),Notes&$filter=BlogId eq 1
+https://localhost:5001/Odata/Api1?$expand=Posts($expand=PostChilds),Notes,Viewers&$filter=BlogId eq 1
+https://localhost:5001/Odata/Api1/1?$expand=Posts($expand=PostChilds),Notes,Viewers

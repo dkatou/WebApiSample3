@@ -1,0 +1,10 @@
+// Data insert
+curl -k -X POST https://localhost:5001/api/Api1 -H "Content-Type:application/json" -d "{\"url\":\"test\"}"
+
+// Get
+curl -k 'https://localhost:5001/odata/Api1?$select=BlogId,Url'
+curl -k 'https://localhost:5001/odata/Api1/1?param1=hoge&$select=BlogId,Url'
+curl -k 'https://localhost:5001/odata/Api1/1?param1=hoge&param2=true&$select=BlogId,Url'
+
+
+
